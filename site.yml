@@ -1,0 +1,7 @@
+- name: Harden password policy on RHEL 7
+  hosts: rhel7test
+  become: true
+  vars_files:
+    - group_vars/all.yml
+  roles:
+    - role: RHEL7-CIS

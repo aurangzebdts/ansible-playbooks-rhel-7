@@ -1,0 +1,399 @@
+rhel7cis_level: custom
+rhel7cis_run_audit: false
+
+# Disable all sections
+rhel7cis_section1: true
+rhel7cis_section2: true
+rhel7cis_section3: false
+rhel7cis_section4: true
+rhel7cis_section5: true
+rhel7cis_section6: true
+rhel7cis_section7: false
+rhel7cis_section8: false
+rhel7cis_section9: false
+
+
+# Section 1 rules
+rhel7cis_rule_1_1_1_1: true
+rhel7cis_rule_1_1_1_2: false
+rhel7cis_rule_1_1_1_3: false
+rhel7cis_rule_1_1_1_4: false
+rhel7cis_rule_1_1_1_5: false
+rhel7cis_rule_1_1_1_6: true
+rhel7cis_rule_1_1_1_7: true
+rhel7cis_rule_1_1_1_8: true
+
+# /tmp
+rhel7cis_rule_1_1_2_1_1: true
+rhel7cis_rule_1_1_2_1_2: true
+rhel7cis_rule_1_1_2_1_3: true
+rhel7cis_rule_1_1_2_1_4: true
+
+# /dev/shm
+rhel7cis_rule_1_1_2_2_1: false
+rhel7cis_rule_1_1_2_2_2: false
+rhel7cis_rule_1_1_2_2_3: false
+rhel7cis_rule_1_1_2_2_4: false
+
+# /home
+rhel7cis_rule_1_1_2_3_1: false
+rhel7cis_rule_1_1_2_3_2: true
+rhel7cis_rule_1_1_2_3_3: false
+
+# /var
+rhel7cis_rule_1_1_2_4_1: true
+rhel7cis_rule_1_1_2_4_2: false
+rhel7cis_rule_1_1_2_4_3: false
+
+# /var/tmp
+rhel7cis_rule_1_1_2_5_1: true
+rhel7cis_rule_1_1_2_5_2: false
+rhel7cis_rule_1_1_2_5_3: false
+rhel7cis_rule_1_1_2_5_4: false
+
+# /var/log
+rhel7cis_rule_1_1_2_6_1: true
+rhel7cis_rule_1_1_2_6_2: false
+rhel7cis_rule_1_1_2_6_3: false
+rhel7cis_rule_1_1_2_6_4: false
+
+# /var/log/audit
+rhel7cis_rule_1_1_2_7_1: true
+rhel7cis_rule_1_1_2_7_2: false
+rhel7cis_rule_1_1_2_7_3: false
+rhel7cis_rule_1_1_2_7_4: false
+
+# Software updates
+rhel7cis_rule_1_2_1: false
+rhel7cis_rule_1_2_2: false
+rhel7cis_rule_1_2_3: false
+rhel7cis_rule_1_2_4: false
+rhel7cis_rule_1_2_5: false
+
+# bootloader
+rhel7cis_rule_1_3_1: true
+rhel7cis_rule_1_3_2: true
+rhel7cis_rule_1_3_3: false
+
+# kernel sysctl and coredumps
+rhel7cis_rule_1_4_1: false
+rhel7cis_rule_1_4_2: true
+rhel7cis_rule_1_4_3: true
+rhel7cis_rule_1_4_4: true
+
+# SElinux
+rhel7cis_rule_1_5_1_1: false
+rhel7cis_rule_1_5_1_2: false
+rhel7cis_rule_1_5_1_3: false
+rhel7cis_rule_1_5_1_4: false
+rhel7cis_rule_1_5_1_5: false
+rhel7cis_rule_1_5_1_6: true
+rhel7cis_rule_1_5_1_7: false
+rhel7cis_rule_1_5_1_8: false
+
+# Message of the Day
+rhel7cis_rule_1_6_1: true
+rhel7cis_rule_1_6_2: true
+rhel7cis_rule_1_6_3: true
+rhel7cis_rule_1_6_4: true
+rhel7cis_rule_1_6_5: false
+rhel7cis_rule_1_6_6: false
+
+# Gnome and graphic desktop
+rhel7cis_rule_1_7_1: false
+rhel7cis_rule_1_7_2: false
+rhel7cis_rule_1_7_3: false
+rhel7cis_rule_1_7_4: false
+rhel7cis_rule_1_7_5: false
+rhel7cis_rule_1_7_6: false
+rhel7cis_rule_1_7_7: false
+rhel7cis_rule_1_7_8: false
+rhel7cis_rule_1_7_9: false
+rhel7cis_rule_1_7_10: false
+
+
+# Section 2 rules
+# time sync
+rhel7cis_rule_2_1_1: true
+rhel7cis_rule_2_1_2: true
+rhel7cis_rule_2_1_3: true
+
+# Server services
+rhel7cis_rule_2_2_1: false
+rhel7cis_rule_2_2_2: false
+rhel7cis_rule_2_2_3: false
+rhel7cis_rule_2_2_4: false
+rhel7cis_rule_2_2_5: false
+rhel7cis_rule_2_2_6: false
+rhel7cis_rule_2_2_7: false
+rhel7cis_rule_2_2_8: false
+rhel7cis_rule_2_2_9: false
+rhel7cis_rule_2_2_10: false
+rhel7cis_rule_2_2_11: false
+rhel7cis_rule_2_2_12: false
+rhel7cis_rule_2_2_13: false
+rhel7cis_rule_2_2_14: false
+rhel7cis_rule_2_2_15: false
+rhel7cis_rule_2_2_16: false
+rhel7cis_rule_2_2_17: false
+rhel7cis_rule_2_2_18: false
+rhel7cis_rule_2_2_19: false
+rhel7cis_rule_2_2_20: false
+rhel7cis_rule_2_2_21: false
+rhel7cis_rule_2_2_22: false
+
+# Client services
+rhel7cis_rule_2_3_1: false
+rhel7cis_rule_2_3_2: false
+rhel7cis_rule_2_3_3: false
+rhel7cis_rule_2_3_4: false
+rhel7cis_rule_2_3_5: false
+
+
+
+
+# Section 4
+
+## Cron
+rhel7cis_rule_4_1_1_1: false
+rhel7cis_rule_4_1_1_2: true
+rhel7cis_rule_4_1_1_3: true
+rhel7cis_rule_4_1_1_4: true
+rhel7cis_rule_4_1_1_5: true
+rhel7cis_rule_4_1_1_6: true
+rhel7cis_rule_4_1_1_7: true
+rhel7cis_rule_4_1_1_8: false
+# At
+rhel7cis_rule_4_1_2_1: false
+
+# SSH Server
+rhel7cis_rule_4_2_1: false
+rhel7cis_rule_4_2_2: false
+rhel7cis_rule_4_2_3: false
+rhel7cis_rule_4_2_4: false
+rhel7cis_rule_4_2_5: true
+rhel7cis_rule_4_2_6: true
+rhel7cis_rule_4_2_7: false
+rhel7cis_rule_4_2_8: false
+rhel7cis_rule_4_2_9: true
+rhel7cis_rule_4_2_10: false
+rhel7cis_rule_4_2_11: false
+rhel7cis_rule_4_2_12: true
+rhel7cis_rule_4_2_13: true  
+rhel7cis_rule_4_2_14: true
+rhel7cis_rule_4_2_15: false
+rhel7cis_rule_4_2_16: true
+rhel7cis_rule_4_2_17: true
+rhel7cis_rule_4_2_18: true
+rhel7cis_rule_4_2_19: true
+rhel7cis_rule_4_2_20: false
+rhel7cis_rule_4_2_21: true
+rhel7cis_rule_4_2_22: true
+
+
+rhel7cis_ssh_maxsessions: 10
+rhel7cis_ssh_maxauthtries: 4
+rhel7cis_ssh_loglevel: VERBOSE
+
+rhel7cis_sshd:
+  ciphers: 'aes256-ctr,aes192-ctr,aes128-ctr'
+  kex: "diffie-hellman-group-exchange-sha256,diffie-hellman-group14-sha256"
+  logingracetime: 60
+  permitemptypasswords: "no"
+  permituserenvironment: "no"
+  UsePAM: "yes"
+
+# Privilege escalation
+rhel7cis_rule_4_3_1: false
+rhel7cis_rule_4_3_2: true
+rhel7cis_rule_4_3_3: true
+rhel7cis_rule_4_3_4: false
+rhel7cis_rule_4_3_5: false
+rhel7cis_rule_4_3_6: true
+rhel7cis_rule_4_3_7: true
+
+## Configure Pluggable Authentication
+# software packages
+rhel7cis_rule_4_4_1_1: false
+rhel7cis_rule_4_4_1_2: false
+
+# pam_faillock
+rhel7cis_rule_4_4_2_1_1: false
+rhel7cis_rule_4_4_2_1_2: false
+rhel7cis_rule_4_4_2_1_3: false
+rhel7cis_rule_4_4_2_1_4: false
+
+# pam_pwquality
+rhel7cis_rule_4_4_2_2_1: false
+rhel7cis_rule_4_4_2_2_2: false
+rhel7cis_rule_4_4_2_2_3: true
+rhel7cis_rule_4_4_2_2_4: false
+rhel7cis_rule_4_4_2_2_5: false
+rhel7cis_rule_4_4_2_2_6: false
+rhel7cis_rule_4_4_2_2_7: false
+
+rhel7cis_pwquality_minlen: 14
+
+
+# pam pwhistory
+rhel7cis_rule_4_4_2_3_1: false
+
+rhel7cis_rule_4_4_2_3_2: true
+rhel7cis_pwhistory_remember: 24
+
+rhel7cis_rule_4_4_2_3_3: false
+rhel7cis_rule_4_4_2_3_4: false
+
+# pam pam_unix
+rhel7cis_rule_4_4_2_4_1: true
+rhel7cis_rule_4_4_2_4_2: false
+rhel7cis_rule_4_4_2_4_3: false
+rhel7cis_rule_4_4_2_4_4: false
+
+# shadow password
+rhel7cis_rule_4_5_1_1: false
+rhel7cis_rule_4_5_1_2: true
+
+
+rhel7cis_rule_4_5_1_3: false
+rhel7cis_rule_4_5_1_4: true
+#4.5.1.4	Ensure inactive password lock is 30 days or less 
+#Could lock out users who forget or delay login after expiry
+# Root/sensitive accounts	Usually exempted or monitored separately
+rhel7cis_pass:
+  max_days: 90
+  min_days: 7
+  inactive: 30
+
+
+rhel7cis_rule_4_5_1_5: false
+
+# root and system accts
+rhel7cis_rule_4_5_2_1: false
+rhel7cis_rule_4_5_2_2: true
+rhel7cis_root_umask: 027
+
+rhel7cis_rule_4_5_2_3: false
+rhel7cis_rule_4_5_2_4: false
+
+# user default envs
+rhel7cis_rule_4_5_3_1: true
+rhel7cis_rule_4_5_3_2: false
+rhel7cis_rule_4_5_3_3: true
+
+# --------------------------------------------------------------
+
+
+##
+## Section 5 rules
+##
+
+# Rsyslog
+rhel7cis_rule_5_1_1_1: false
+rhel7cis_rule_5_1_1_2: false
+rhel7cis_rule_5_1_1_3: false
+rhel7cis_rule_5_1_1_4: true
+rhel7cis_rule_5_1_1_5: false
+rhel7cis_rule_5_1_1_6: false
+rhel7cis_rule_5_1_1_7: false
+
+# Journald
+rhel7cis_rule_5_1_2_1_1: false
+rhel7cis_rule_5_1_2_1_2: false
+rhel7cis_rule_5_1_2_1_3: false
+rhel7cis_rule_5_1_2_1_4: false
+rhel7cis_rule_5_1_2_2: false
+rhel7cis_rule_5_1_2_3: true
+rhel7cis_rule_5_1_2_4: true
+rhel7cis_rule_5_1_2_5: false
+rhel7cis_rule_5_1_2_6: false
+rhel7cis_rule_5_1_3: false
+rhel7cis_rule_5_1_4: true
+
+# Auditd
+rhel7cis_rule_5_2_1_1: false
+rhel7cis_rule_5_2_1_2: true
+rhel7cis_rule_5_2_1_3: true
+rhel7cis_rule_5_2_1_4: false
+rhel7cis_rule_5_2_2_1: true
+rhel7cis_rule_5_2_2_2: true
+rhel7cis_rule_5_2_2_3: true
+rhel7cis_rule_5_2_2_4: false
+
+# auditd rules
+rhel7cis_rule_5_2_3_1: true
+rhel7cis_rule_5_2_3_2: true
+rhel7cis_rule_5_2_3_3: true
+rhel7cis_rule_5_2_3_4: true
+rhel7cis_rule_5_2_3_5: true
+rhel7cis_rule_5_2_3_6: true
+rhel7cis_rule_5_2_3_7: true
+rhel7cis_rule_5_2_3_8: true
+rhel7cis_rule_5_2_3_9: true
+rhel7cis_rule_5_2_3_10: true
+rhel7cis_rule_5_2_3_11: true
+rhel7cis_rule_5_2_3_12: true
+rhel7cis_rule_5_2_3_13: true
+rhel7cis_rule_5_2_3_14: true
+rhel7cis_rule_5_2_3_15: true
+rhel7cis_rule_5_2_3_16: true
+rhel7cis_rule_5_2_3_17: true
+rhel7cis_rule_5_2_3_18: true
+rhel7cis_rule_5_2_3_19: true
+rhel7cis_rule_5_2_3_20: false
+rhel7cis_rule_5_2_3_21: false
+
+# auditd file access
+rhel7cis_rule_5_2_4_1: true
+rhel7cis_rule_5_2_4_2: false
+rhel7cis_rule_5_2_4_3: false
+rhel7cis_rule_5_2_4_4: false
+rhel7cis_rule_5_2_4_5: false
+rhel7cis_rule_5_2_4_6: false
+rhel7cis_rule_5_2_4_7: false
+rhel7cis_rule_5_2_4_8: false
+rhel7cis_rule_5_2_4_9: false
+rhel7cis_rule_5_2_4_10: false
+auditd_immutable: true
+
+# Aide
+rhel7cis_rule_5_3_1: true
+rhel7cis_rule_5_3_2: true
+
+
+# ---------------------------------------------------------------------------------------
+
+
+# Section 6 rules
+# Section 6 is System Maintenance (System File Permissions and User and Group Settings)
+rhel7cis_rule_6_1_1: false
+rhel7cis_rule_6_1_2: false
+rhel7cis_rule_6_1_3: false
+rhel7cis_rule_6_1_4: false
+rhel7cis_rule_6_1_5: false
+rhel7cis_rule_6_1_6: false
+rhel7cis_rule_6_1_7: false
+rhel7cis_rule_6_1_8: false
+rhel7cis_rule_6_1_9: false
+rhel7cis_rule_6_1_10: false
+rhel7cis_rule_6_1_11: true
+rhel7cis_rule_6_1_12: false
+rhel7cis_rule_6_1_13: false
+rhel7cis_rule_6_1_14: false
+rhel7cis_rule_6_2_1: false
+rhel7cis_rule_6_2_2: false
+rhel7cis_rule_6_2_3: false
+rhel7cis_rule_6_2_4: false
+rhel7cis_rule_6_2_5: false
+rhel7cis_rule_6_2_6: false
+rhel7cis_rule_6_2_7: false
+rhel7cis_rule_6_2_8: false
+rhel7cis_rule_6_2_9: false
+rhel7cis_rule_6_2_10: true
+rhel7cis_rule_6_2_11: false
+rhel7cis_rule_6_2_12: false
+rhel7cis_rule_6_2_13: false
+rhel7cis_rule_6_2_14: false
+rhel7cis_rule_6_2_15: false
+rhel7cis_rule_6_2_16: false
+rhel7cis_rule_6_2_17: false
